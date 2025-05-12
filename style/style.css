@@ -46,7 +46,7 @@ h1 {
   /* Navigation */
 
   .nav-list {
-    display: flex; /* YA SE QUE NO SE PODIA USAR FLEXBOX PERO QUEDABA FEO */
+    display: flex;
     justify-content: center;
     list-style: none; /* Elimina los puntos de la lista */
     padding: 1rem 0;
@@ -68,7 +68,9 @@ h1 {
   /* Body */
 
   body {
-    background: linear-gradient(to bottom, #f0f0f0, #555555); /* Degradado de blanco a gris claro */
+    background-image: url(../images/space-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   /* h2 es el subtitulo de cada uno de los html */
@@ -96,7 +98,7 @@ h1 {
   }
 
   .michi-lista {
-    width: 30rem;
+    width: 15rem;
     height: auto;
     padding: 1rem;
   }
@@ -136,6 +138,24 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .michi-tarjeta-container {
+    display: flex;
+    justify-content: space-around; /* espacio entre las tarjetas */
+    flex-wrap: wrap; /* para que se acomoden en varias filas */
+    padding: 2rem; /* espacio alrededor de las tarjetas */
+  }
+
+  .michi-tarjeta {
+  background-color: #f2f2f2;
+  border: 0.1rem solid #ccc;
+  width: 33rem;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
   }
 
   /* footer */
