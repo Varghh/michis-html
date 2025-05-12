@@ -6,6 +6,13 @@
     box-sizing: border-box;
   }
   
+  /* Establece el tamaño de fuente base para los navegadores */
+  /* Esto es para que el tamaño de fuente base sea el mismo en todos los navegadores */
+  html,body { 
+    height: 100%;
+    font-size: 16px;
+  }
+
   /* Fuente Global */
 * {
     font-family: "Geo", sans-serif;
