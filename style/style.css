@@ -113,11 +113,31 @@ h1 {
     padding: 1rem;
   }
 
-  .description-michi {
+  .michi-datos {
+    text-align: left;
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0.5rem;
+    margin: 0; /* Elimina el margen de la lista */
+    font-size: 1rem;
+  }
+
+  .michi-description {
         font-family: "Electrolize", sans-serif;
         font-weight: 400;
         font-style: normal;
+        background-color: aqua;
+        border-radius: 0.5rem;
         font-size: 1.5rem;
+        color: #000000;
+        text-align: left;
+    }
+
+    .michi-description2 {
+        font-family: "Electrolize", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        font-size: 1.3rem;
         color: #000000;
         text-align: left;
     }
