@@ -69,7 +69,7 @@ h1 {
 
   body {
     background-image: url(../images/space-background.jpg);
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
   }
 
