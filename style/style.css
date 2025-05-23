@@ -20,6 +20,13 @@
     font-style: normal;
   }
 
+  /* Estilo tipo "ventana clásica de Windows" */
+.divider {
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #808080;
+  margin: 0;
+}
+
   /* Header */
 
   header {
@@ -31,7 +38,7 @@
 
   .logo {
     padding: 1rem; /* Espacio alrededor de la imagen */
-    width: 40rem; /* Cambié el tamaño de la imagen para que no se vea tan grande */
+    width: 10rem; /* Cambié el tamaño de la imagen para que no se vea tan grande */
     height: auto; /* Mantiene la proporción de la imagen */
     display: block; /* Para centrar la imagen */
     margin: 0 auto; /* Centra la imagen horizontalmente */
@@ -39,8 +46,31 @@
 
 h1 {
     font-size: 3rem;
-    color: #000000;
-    text-align: left;
+    text-align: center;
+    color: #fff;
+      text-shadow:
+        0 0 5px #fff,
+        0 0 10px #62b2f3,
+        0 0 20px #62b2f3,
+        0 0 40px #62b2f3;
+      animation: neon-flicker 1.2s infinite alternate;
+  }
+
+  @keyframes neon-flicker {
+    0% {
+      text-shadow:
+        0 0 5px #fff,
+        0 0 10px #62b2f3,
+        0 0 20px #62b2f3,
+        0 0 40px #62b2f3;
+    }
+    100% {
+      text-shadow:
+        0 0 10px #fff,
+        0 0 20px #62b2f3,
+        0 0 30px #62b2f3,
+        0 0 50px #62b2f3;
+    }
   }
 
   /* Navigation */
@@ -67,24 +97,23 @@ h1 {
 
   /* Body */
 
-  body {
-    background-image: url(../images/space-background.jpg);
-    background-size: auto;
-    background-repeat: no-repeat;
+  main {
+    background-color: black;
   }
 
   /* h2 es el subtitulo de cada uno de los html */
-  h2 {
+  main h2 {
     font-size: 3rem;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
+    padding-top: 1.5rem;
   }
 
   /* h3 se usa para los nombres de los michis */
   h3 {
     font-size: 2rem;
     padding: 0.3rem;   
-    color: #000000;
+    color: #ffffff;
     text-align: left;
     font-style: italic;
   }
@@ -108,7 +137,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 1rem;
   }
@@ -188,9 +217,10 @@ h1 {
   }
 
   .footer {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #ffffff;
     text-align: left;
+    margin: 0;
   }
 
   .sorpresa {
