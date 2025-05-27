@@ -471,48 +471,70 @@ footer {
   z-index: 1;
 }
 
-@media (max-width: 390px) {
-  .nav-list {
-    gap: 0.3rem;
-  }
-
-  .nav-list li {
-    margin: 0 2px;
-  }
-
-  .btn-lg {
-    font-size: 0.8rem;
-    padding: 0.3rem 0.7rem;
+@media (max-width: 600px) {
+  .logo {
+    width: 8rem;
+    padding: 0.7rem;
   }
 
   header h1 {
-    font-size: 1.4rem;
-  }
-}
-
-@media (max-width: 390px) {
-  .description {
-    margin: 0 1rem;
     font-size: 1.2rem;
-  }
-
-  main h2 {
-    font-size: 2rem;
-  }
-
-  .michi-tarjetas {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .logo {
-    width: 6rem;
-    padding: 0.5rem;
   }
 
   .nav-list {
     flex-wrap: wrap;
-    gap: 0.2rem;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+  }
+
+  .nav-list li {
+    margin: 0 0.5rem;
+  }
+
+  .btn,
+  .btn-lg {
+    font-size: 1rem !important;
+    padding: 0.3rem 0.8rem !important;
+    min-width: unset;
+  }
+
+  .card {
+    width: 100% !important;
+    max-width: 400px;
+    margin: 0 auto 1rem auto;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+
+  .description {
+    margin: 0 2rem;
+    font-size: 1.1rem;
+  }
+
+  form {
+    max-width: 98vw;
+    padding: 0 1rem;
+  }
+
+  .footer {
+    font-size: 1.2rem;
+    padding: 0.2rem;
+    margin: 0.2rem;
+  }
+
+  audio {
+    width: 60%;
+  }
+}
+
+@media (max-width: 495px) {
+  .nav-list {
+    gap: 0.3rem;
+    flex-wrap: wrap;
     font-size: 1rem;
     padding: 0.2rem 0;
   }
@@ -521,16 +543,35 @@ footer {
     margin: 0 1px;
   }
 
-  .btn {
+  .btn,
+  .btn-lg {
     font-size: 0.8rem !important;
     padding: 0.2rem 0.5rem !important;
     min-width: unset;
     margin-bottom: 0.5rem !important;
   }
 
-  .btn-lg {
-    font-size: 0.8rem !important;
-    padding: 0.2rem 0.5rem !important;
+  .logo {
+    width: 6rem;
+    padding: 0.5rem;
+  }
+
+  header h1 {
+    font-size: 1rem;
+  }
+
+  .description {
+    margin: 0 1rem;
+    font-size: 1rem;
+  }
+
+  main h2 {
+    font-size: 1.2rem;
+  }
+
+  .michi-tarjetas {
+    flex-direction: column;
+    align-items: center;
   }
 
   form {
@@ -562,5 +603,15 @@ footer {
   .card-img-top {
     width: 100%;
     height: auto;
+  }
+
+  .footer {
+    font-size: 0.9rem;
+    padding: 0.1rem;
+    margin: 0.1rem;
+  }
+
+  audio {
+    width: 50%;
   }
 }
