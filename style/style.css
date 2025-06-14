@@ -545,6 +545,16 @@ footer {
     font-size: 1.1rem;
   }
 
+  .adoption-list {
+    margin: 0 2rem;
+    font-size: 1.1rem;
+  }
+
+  .neon-list-title {
+    margin: 0 2rem;
+    font-size: 1.3rem; 
+  }
+
   form {
     max-width: 98vw;
     padding: 0 1rem;
@@ -593,6 +603,16 @@ footer {
   .description {
     margin: 0 1rem;
     font-size: 1rem;
+  }
+
+  .adoption-list {
+    margin: 0 2rem;
+    font-size: 1rem;
+  }
+
+  .neon-list-title {
+    margin: 0 2rem;
+    font-size: 1.2rem; 
   }
 
   main h2 {
@@ -678,6 +698,16 @@ footer {
   .description {
     margin: 0 0.5rem;
     font-size: 0.9rem;
+  }
+
+   .adoption-list {
+    margin: 0 1rem;
+    font-size: 0.8rem;
+  }
+
+  .neon-list-title {
+    margin: 0 1rem;
+    font-size: 1rem; 
   }
 
   main h2 {
