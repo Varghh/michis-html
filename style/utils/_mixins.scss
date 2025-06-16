@@ -13,3 +13,11 @@
   align-items: center;
   margin: $margin;
 }
+
+@mixin centered-image($width: 10rem, $padding: 1rem) {
+  padding: $padding;
+  width: $width;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

@@ -1,14 +1,5 @@
 .logo {
-  padding: 1rem;
-  /* Espacio alrededor de la imagen */
-  width: 10rem;
-  /* Cambié el tamaño de la imagen para que no se vea tan grande */
-  height: auto;
-  /* Mantiene la proporción de la imagen */
-  display: block;
-  /* Para centrar la imagen */
-  margin: 0 auto;
-  /* Centra la imagen horizontalmente */
+@include centered-image(10rem, 1rem);
 }
 
 h1 {
