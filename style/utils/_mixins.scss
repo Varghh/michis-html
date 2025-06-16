@@ -1,0 +1,15 @@
+@mixin flex-wrap-center($gap: 2rem, $padding: 2rem) {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: $gap;
+  padding: $padding;
+  margin: 0 auto;
+}
+
+@mixin flex-center($margin: 0) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: $margin;
+}

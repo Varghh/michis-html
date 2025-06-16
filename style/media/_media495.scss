@@ -1,0 +1,94 @@
+@media (max-width: 495px) {
+  .nav-list {
+    gap: 0.3rem;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    padding: 0.2rem 0;
+  }
+
+  .nav-list li {
+    margin: 0 1px;
+  }
+
+  .btn,
+  .btn-lg {
+    font-size: 0.8rem !important;
+    padding: 0.2rem 0.5rem !important;
+    min-width: unset;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .logo {
+    width: 6rem;
+    padding: 0.5rem;
+  }
+
+  header h1 {
+    font-size: 1rem;
+  }
+
+  .description {
+    margin: 0 1rem;
+    font-size: 1rem;
+  }
+
+  .adoption-list {
+    margin: 0 2rem;
+    font-size: 1rem;
+  }
+
+  .neon-list-title {
+    margin: 0 2rem;
+    font-size: 1.2rem; 
+  }
+
+  main h2 {
+    font-size: 1.2rem;
+  }
+
+  .michi-tarjetas {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form {
+    max-width: 95vw;
+    padding: 0 0.5rem;
+  }
+
+  input,
+  textarea {
+    font-size: 1rem;
+    padding: 6px;
+  }
+
+  label.form {
+    font-size: 1rem;
+  }
+
+  input[type="submit"] {
+    font-size: 1rem;
+    padding: 0.4rem 1.2rem;
+  }
+
+  .card {
+    width: 100% !important;
+    max-width: 320px;
+    margin: 0 auto 1rem auto;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer {
+    font-size: 0.9rem;
+    padding: 0.1rem;
+    margin: 0.1rem;
+  }
+
+  audio {
+    width: 50%;
+  }
+}

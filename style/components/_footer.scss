@@ -1,0 +1,28 @@
+.audio-fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: rgba(30, 30, 30, 0.7);
+  border-radius: 10px;
+  padding: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.audio-fixed audio {
+  width: 8rem;
+  /* Ajusta el tamaño si quieres */
+}
+
+.footer {
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.sorpresa {
+  color: #ffffff;
+  text-decoration: none;
+}

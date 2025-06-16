@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Geo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.divider {
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #808080;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+}
+
+main,
+header,
+footer {
+  position: relative;
+  z-index: 1;
+}
+
+form {
+  max-width: 400px;
+  /* Ancho máximo del formulario, use px porque rem se rompia todo */
+  margin: auto;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.starry-bg {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  background: linear-gradient(to bottom,
+      #0a0026 0%,
+      #2d0066 30%,
+      #553ea8 50%,
+      #2d0066 70%,
+      #0a0026 100%);
+  overflow: hidden;
+}

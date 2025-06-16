@@ -1,0 +1,53 @@
+.logo {
+  padding: 1rem;
+  /* Espacio alrededor de la imagen */
+  width: 10rem;
+  /* Cambié el tamaño de la imagen para que no se vea tan grande */
+  height: auto;
+  /* Mantiene la proporción de la imagen */
+  display: block;
+  /* Para centrar la imagen */
+  margin: 0 auto;
+  /* Centra la imagen horizontalmente */
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #62b2f3, 0 0 20px #62b2f3,
+    0 0 40px #62b2f3;
+  animation: neon-flicker 1.2s infinite alternate;
+}
+
+@keyframes neon-flicker {
+  0% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #62b2f3, 0 0 20px #62b2f3,
+      0 0 40px #62b2f3;
+  }
+
+  100% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #62b2f3, 0 0 30px #62b2f3,
+      0 0 50px #62b2f3;
+  }
+}
+
+/* Navigation */
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  /* Elimina los puntos de la lista */
+  padding: 1rem 0;
+  margin: 0;
+  /* Elimina el margen de la lista */
+  font-size: 2rem;
+}
+
+.nav-list li {
+  display: inline-block;
+  /* Pone los <li> uno al lado del otro */
+  margin: 0 2rem;
+  /* Espacio horizontal entre ítems */
+}

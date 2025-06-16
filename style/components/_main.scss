@@ -1,0 +1,66 @@
+main {
+  background-color: rgba(0, 0, 0, 0.808);
+}
+
+/* h2 es el subtitulo de cada uno de los html */
+main h2 {
+  font-size: 3rem;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.description {
+  font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 8rem;
+  padding: 1rem;
+}
+
+/* Estilo para los títulos de la lista de adopción */
+.neon-list-title {
+  font-size: 1.8rem;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #62b2f3, 0 0 20px #62b2f3,
+    0 0 40px #62b2f3;
+  animation: neon-flicker 1.2s infinite alternate;
+  margin-bottom: 0.5rem;
+}
+
+/* Estilo para la lista de adopción */
+.adoption-list {
+  list-style: none;
+  font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 8rem;
+  padding: 1rem;
+}
+
+.adoption-list li {
+  margin-bottom: 1.5rem;
+  justify-content: center;
+}
+
+main .michi-tarjetas {
+  @include flex-wrap-center(2rem, 2rem);
+}
+
+.video-container {
+@include flex-center(8rem);
+}
+
+.form {
+  font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
