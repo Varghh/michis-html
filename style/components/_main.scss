@@ -1,21 +1,23 @@
+@import '../variables/variables';
+
 main {
-  background-color: rgba(0, 0, 0, 0.808);
+  background-color: $color-background-dark;
 }
 
 /* h2 es el subtitulo de cada uno de los html */
 main h2 {
   font-size: 3rem;
-  color: #ffffff;
+  color: $color-white;
   text-align: center;
   padding-top: 1.5rem;
 }
 
 .description {
-  font-family: "Electrolize", sans-serif;
+  font-family: $font-secondary;
   font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
-  color: #ffffff;
+  color: $color-white;
   text-align: center;
   margin: 0 8rem;
   padding: 1rem;
@@ -24,9 +26,8 @@ main h2 {
 /* Estilo para los títulos de la lista de adopción */
 .neon-list-title {
   font-size: 1.8rem;
-  color: #fff;
-  text-shadow: 0 0 5px #fff, 0 0 10px #62b2f3, 0 0 20px #62b2f3,
-    0 0 40px #62b2f3;
+  color: $color-white;
+  text-shadow: $shadow-neon;
   animation: neon-flicker 1.2s infinite alternate;
   margin-bottom: 0.5rem;
 }
@@ -34,11 +35,11 @@ main h2 {
 /* Estilo para la lista de adopción */
 .adoption-list {
   list-style: none;
-  font-family: "Electrolize", sans-serif;
+  font-family: $font-secondary;
   font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
-  color: #ffffff;
+  color: $color-white;
   text-align: center;
   margin: 0 8rem;
   padding: 1rem;
@@ -54,13 +55,13 @@ main .michi-tarjetas {
 }
 
 .video-container {
-@include flex-center(8rem);
+  @include flex-center(8rem);
 }
 
 .form {
-  font-family: "Electrolize", sans-serif;
+  font-family: $font-secondary;
   font-weight: 400;
   font-style: normal;
   font-size: 1.2rem;
-  color: #ffffff;
+  color: $color-white;
 }

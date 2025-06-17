@@ -1,3 +1,5 @@
+@import '../variables/variables';
+
 .audio-fixed {
   position: fixed;
   bottom: 20px;
@@ -6,7 +8,7 @@
   background: rgba(30, 30, 30, 0.7);
   border-radius: 10px;
   padding: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: $shadow-audio;
 }
 
 .audio-fixed audio {
@@ -16,13 +18,13 @@
 
 .footer {
   font-size: 1.5rem;
-  color: #ffffff;
+  color: $color-white;
   text-align: center;
   margin: 0.5rem;
   padding: 0.5rem;
 }
 
 .sorpresa {
-  color: #ffffff;
+  color: $color-white;
   text-decoration: none;
 }

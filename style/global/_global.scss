@@ -1,15 +1,17 @@
+@import '../variables/variables';
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Geo", sans-serif;
+  font-family: $font-primary;
   font-weight: 400;
   font-style: normal;
 }
 
 .divider {
-  border-top: 2px solid #ffffff;
-  border-bottom: 2px solid #808080;
+  border-top: 2px solid $color-white;
+  border-bottom: 2px solid $color-gray;
   margin: 0;
 }
 
@@ -27,8 +29,8 @@ footer {
 }
 
 form {
-  max-width: 400px;
-  /* Ancho máximo del formulario, use px porque rem se rompia todo */
+  max-width: $max-width-form;
+  /* Ancho máximo del formulario */
   margin: auto;
 }
 
@@ -48,10 +50,10 @@ textarea {
   z-index: 0;
   pointer-events: none;
   background: linear-gradient(to bottom,
-      #0a0026 0%,
-      #2d0066 30%,
-      #553ea8 50%,
-      #2d0066 70%,
-      #0a0026 100%);
+      $color-gradient-dark 0%,
+      $color-gradient-mid 30%,
+      $color-gradient-light 50%,
+      $color-gradient-mid 70%,
+      $color-gradient-dark 100%);
   overflow: hidden;
 }

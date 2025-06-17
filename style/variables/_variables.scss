@@ -1,0 +1,29 @@
+//fonts
+$font-primary: "Geo", sans-serif;
+$font-secondary: "Electrolize", sans-serif;
+
+//colors
+$color-white: #ffffff;
+$color-gray: #808080;
+$color-background-dark: rgba(0, 0, 0, 0.808);
+$color-neon-blue: #62b2f3;
+
+// gradients
+$color-purple-light: #b39ddb;
+$color-gradient-dark: #0a0026;
+$color-gradient-mid: #2d0066;
+$color-gradient-light: #553ea8;
+
+// shadows
+$shadow-neon: 0 0 5px $color-white, 0 0 10px $color-neon-blue, 0 0 20px $color-neon-blue, 0 0 40px $color-neon-blue;
+$shadow-neon-alt: 0 0 10px $color-white, 0 0 20px $color-neon-blue, 0 0 30px $color-neon-blue, 0 0 50px $color-neon-blue;
+$shadow-star: 0 0 8px 2px $color-white, 0 0 20px 4px $color-purple-light;
+$shadow-star-twinkle: 0 0 2px 0 $color-white, 0 0 6px 1px $color-purple-light;
+$shadow-audio: 0 2px 8px rgba(0, 0, 0, 0.3);
+
+// sizes
+$max-width-form: 400px;
+
+// animations
+$animation-twinkle: twinkle 2s infinite;
+$animation-neon: neon-flicker 1.2s infinite alternate;

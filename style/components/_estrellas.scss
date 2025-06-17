@@ -1,10 +1,10 @@
 .star {
   position: absolute;
-  background: white;
+  background: $color-white;
   border-radius: 50%;
   opacity: 0.7;
-  box-shadow: 0 0 8px 2px #fff, 0 0 20px 4px #b39ddb;
-  animation: twinkle 2s infinite;
+  box-shadow: $shadow-star;
+  animation: $animation-twinkle;
 }
 
 .star1 {
@@ -252,11 +252,11 @@
   0%,
   100% {
     opacity: 0.7;
-    box-shadow: 0 0 8px 2px #fff, 0 0 20px 4px #b39ddb;
+    box-shadow: $shadow-star;
   }
 
   50% {
     opacity: 0.2;
-    box-shadow: 0 0 2px 0 #fff, 0 0 6px 1px #b39ddb;
+    box-shadow: $shadow-star-twinkle;
   }
 }

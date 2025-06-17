@@ -1,3 +1,5 @@
+@import '../variables/variables';
+
 .logo {
 @include centered-image(10rem, 1rem);
 }
@@ -5,21 +7,18 @@
 h1 {
   font-size: 3rem;
   text-align: center;
-  color: #fff;
-  text-shadow: 0 0 5px #fff, 0 0 10px #62b2f3, 0 0 20px #62b2f3,
-    0 0 40px #62b2f3;
-  animation: neon-flicker 1.2s infinite alternate;
+  color: $color-white;
+  text-shadow: $shadow-neon;
+  animation: $animation-neon;
 }
 
 @keyframes neon-flicker {
   0% {
-    text-shadow: 0 0 5px #fff, 0 0 10px #62b2f3, 0 0 20px #62b2f3,
-      0 0 40px #62b2f3;
+    text-shadow: $shadow-neon;
   }
 
   100% {
-    text-shadow: 0 0 10px #fff, 0 0 20px #62b2f3, 0 0 30px #62b2f3,
-      0 0 50px #62b2f3;
+    text-shadow: $shadow-neon-alt;
   }
 }
 

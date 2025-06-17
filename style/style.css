@@ -29,7 +29,7 @@ footer {
 
 form {
   max-width: 400px;
-  /* Ancho máximo del formulario, use px porque rem se rompia todo */
+  /* Ancho máximo del formulario */
   margin: auto;
 }
 
@@ -54,10 +54,10 @@ textarea {
 
 .star {
   position: absolute;
-  background: white;
+  background: #ffffff;
   border-radius: 50%;
   opacity: 0.7;
-  box-shadow: 0 0 8px 2px #fff, 0 0 20px 4px #b39ddb;
+  box-shadow: 0 0 8px 2px #ffffff, 0 0 20px 4px #b39ddb;
   animation: twinkle 2s infinite;
 }
 
@@ -304,11 +304,11 @@ textarea {
 @keyframes twinkle {
   0%, 100% {
     opacity: 0.7;
-    box-shadow: 0 0 8px 2px #fff, 0 0 20px 4px #b39ddb;
+    box-shadow: 0 0 8px 2px #ffffff, 0 0 20px 4px #b39ddb;
   }
   50% {
     opacity: 0.2;
-    box-shadow: 0 0 2px 0 #fff, 0 0 6px 1px #b39ddb;
+    box-shadow: 0 0 2px 0 #ffffff, 0 0 6px 1px #b39ddb;
   }
 }
 .logo {
@@ -322,17 +322,17 @@ textarea {
 h1 {
   font-size: 3rem;
   text-align: center;
-  color: #fff;
-  text-shadow: 0 0 5px #fff, 0 0 10px #62b2f3, 0 0 20px #62b2f3, 0 0 40px #62b2f3;
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #62b2f3, 0 0 20px #62b2f3, 0 0 40px #62b2f3;
   animation: neon-flicker 1.2s infinite alternate;
 }
 
 @keyframes neon-flicker {
   0% {
-    text-shadow: 0 0 5px #fff, 0 0 10px #62b2f3, 0 0 20px #62b2f3, 0 0 40px #62b2f3;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #62b2f3, 0 0 20px #62b2f3, 0 0 40px #62b2f3;
   }
   100% {
-    text-shadow: 0 0 10px #fff, 0 0 20px #62b2f3, 0 0 30px #62b2f3, 0 0 50px #62b2f3;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #62b2f3, 0 0 30px #62b2f3, 0 0 50px #62b2f3;
   }
 }
 /* Navigation */
@@ -380,8 +380,8 @@ main h2 {
 /* Estilo para los títulos de la lista de adopción */
 .neon-list-title {
   font-size: 1.8rem;
-  color: #fff;
-  text-shadow: 0 0 5px #fff, 0 0 10px #62b2f3, 0 0 20px #62b2f3, 0 0 40px #62b2f3;
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #62b2f3, 0 0 20px #62b2f3, 0 0 40px #62b2f3;
   animation: neon-flicker 1.2s infinite alternate;
   margin-bottom: 0.5rem;
 }
